@@ -40,7 +40,7 @@ In other words, due to our limited mental capabilities, it's hard for us humans 
 
 ```s_t = state(requirements, t)```
 
-It looks too obvious to even mention it.  But if we'll pay attention to the fact that `requirements` is itself a function of time, we can understand one of the main flaws of modern Agile sprint-based methodologies (at least in the way they are being adopted by companies). They just tend not to respect the long-term nature of incoming requirements, and instead focus on several up-coming sprints only.  In other words, agile methodologies are like greedy algorithms, and we as programmers know that greedy for a wide range of problems, greedy algorithms fail to provide an optimal solution.
+It looks too obvious to even mention it. But wait a bit,  I'll make a point. 
 
 **State change is limited by the effort we put in.** Each state transformation takes some effort from programmers building the system:
 
@@ -48,6 +48,8 @@ It looks too obvious to even mention it.  But if we'll pay attention to the fact
 
 It doesn't really matter if we'll represent effort as a function of time (we are dropping more developers into a team when needed) or a constant value (in case of a stable team working on a project in fixed lengthed iterations). What's matter is that it should be clear that we can't go from any s1 to any s2. Withing given time frame, we can change the system only that much. 
 
-And this last point brings lots of excitement to my daily life! If you ever participated in one of these popular programming challenges, where you have to program simulated Moon landing unit, you know that it has the same core problem. You can't arbitrarily change landing unit velocity and position, because it's limited by a maximum torque you can apply. 
+Now, let's pay attention to the combination of facts that `requirements` is itself a function of time, we can understand one of the main flaws of modern Agile sprint-based methodologies (at least in the way they are being adopted by companies). They just tend not to respect the long-term nature of incoming requirements, and instead focus on several up-coming sprints only.  In other words, agile methodologies are like greedy algorithms, and we as programmers know that greedy for a wide range of problems, greedy algorithms fail to provide an optimal solution.
 
-In other words, if you'll try to see this big picture of software development. And think about this analogy between spacecraft landing problem and any long-term software project, you can see that no matter how big, how legacy and how boring the system you are working on is, it's, in fact, a rocket science! The only shameful difference is that we as an industry are used to happily smashing our "spacecrafts" into Moon surface and starting over while giving this process fancy names like *"legacy system decommissioning"*. 
+## What of it?
+
+I am going to make some bold statements based on described model in upcoming notes.
